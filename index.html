@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JC Portfolio</title>
+  <link rel="icon" type="image/png" href="images/JC_LOGO.jpeg">
+
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ========================= -->
+  <!-- HEADER -->
+  <!-- ========================= -->
+
+  <header class="header">
+
+    <nav class="navbar">
+
+      <h2 class="logo">JC Developer</h2>
+
+      <ul class="nav-links">
+        <li><a href="#inicio" data-es="Inicio" data-en="Home">Inicio</a></li>
+        <li><a href="#acerca" data-es="Acerca de mí" data-en="About me">Acerca de mí</a></li>
+        <li><a href="#proyectos" data-es="Proyectos" data-en="Projects">Proyectos</a></li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <!-- ========================= -->
+  <!-- HERO / INICIO -->
+  <!-- ========================= -->
+
+  <section id="inicio" class="hero">
+
+    <div class="hero-content">
+
+      <!-- TEXTO -->
+      <div class="hero-text">
+
+        <h1 data-es="Hola, soy <span> Juan Camilo Aza </span>" data-en="Hi, I'm <span> Juan Camilo Aza</span>">
+            Hola, soy <span>Juan Camilo Aza</span></h1>
+
+        <h3></h3>
+
+        <p data-es="Apasionado por el desarrollo web y la creación de interfaces modernas, 
+          aplicaciones responsivas y experiencias interactivas enfocadas en el usuario." 
+          data-en="Passionate about web development and creating modern interfaces,
+            responsive applications, and user-focused interactive experiences.">
+          Apasionado por el desarrollo web y la creación de interfaces modernas, 
+          aplicaciones responsivas y experiencias interactivas enfocadas en el usuario.
+        </p>
+
+        <a href="cv/cv.pdf" download class="btn" data-es="Descargar CV" data-en="Download CV">
+          Descargar CV
+        </a>
+
+      </div>
+
+      <!-- FOTO -->
+      <div class="hero-image">
+
+        <img src="images/camilo_aza.jpeg" alt="Foto profesional">
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ========================= -->
+  <!-- ACERCA DE MI -->
+  <!-- ========================= -->
+
+  <section id="acerca" class="about">
+
+    <div class="container">
+
+      <h2 class="section-title" data-es="Acerca de mí" data-en="About me">Acerca de mí</h2>
+
+      <!-- INFORMACION -->
+      <div class="about-content">
+
+        <div class="about-text">
+
+          <h3>Juan Camilo Aza Murcia</h3>
+
+          <p data-es="Soy un Junior Web Developer con experiencia creando aplicaciones web interactivas y responsivas 
+           utilizando HTML, CSS, JavaScript y Firebase. 
+           Disfruto desarrollar interfaces modernas, resolver problemas 
+           y seguir aprendiendo nuevas tecnologías para mejorar mis habilidades como desarrollador." 
+           data-en="I am a Junior Web Developer with experience creating interactive and responsive web applications using 
+           HTML, CSS, JavaScript, and Firebase. I enjoy developing modern interfaces, solving problems, 
+           and continuing to learn new technologies to improve my skills as a developer.">
+           Soy un Junior Web Developer con experiencia creando aplicaciones web interactivas y responsivas 
+           utilizando HTML, CSS, JavaScript y Firebase. 
+           Disfruto desarrollar interfaces modernas, resolver problemas 
+           y seguir aprendiendo nuevas tecnologías para mejorar mis habilidades como desarrollador.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- EDUCACION -->
+      <div class="education">
+
+        <h3 data-es="Educación" data-en="Education">Educación</h3>
+
+        <div class="education-card">
+
+          <h4>Computer Programming Diploma</h4>
+
+          <span>2024 - 2025</span>
+
+          <p data-es="Lambton College en Toronto-Canada" data-en="Lambton College in Toronto-Canada.">
+           Lambton College en Toronto-Canada. 
+           <p data-es="Programa de diplomatura enfocado en desarrollo web, fundamentos de programación,
+                bases de datos y prácticas de desarrollo de software utilizando tecnologías modernas."
+                 data-en="Diploma program focused on web development, programming fundamentals, 
+                databases, and software development practices using modern technologies.">
+                Programa de diplomatura enfocado en desarrollo web, fundamentos de programación,
+                bases de datos y prácticas de desarrollo de software utilizando tecnologías modernas.
+            </p>
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- HABILIDADES -->
+      <div class="skills">
+
+        <h3 data-es="Habilidades Técnicas" data-en="Technical Skills">Habilidades Técnicas</h3>
+
+        <div class="skills-container">
+
+          <span class="skill">HTML</span>
+          <span class="skill">CSS</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">SQL</span>
+          <span class="skill">Git</span>
+          <span class="skill">C#</span>
+          <span class="skill">Python</span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ========================= -->
+  <!-- PROYECTOS -->
+  <!-- ========================= -->
+
+  <section id="proyectos" class="projects">
+
+    <div class="container">
+
+      <h2 class="section-title" data-es="Mis Proyectos" data-en="My Projects">Mis Proyectos</h2>
+
+      <div class="projects-container">
+
+        <!-- PROYECTO 1 -->
+        <div class="project-card">
+
+          <img src="images/Floor_Planner_Web.jpeg" alt="Proyecto 1">
+
+          <div class="project-info">
+
+            <h3>Floor Planner</h3>
+
+            <p data-es="Aplicación web para gestión de mesas en restaurantes con sincronización en tiempo real usando Firebase. 
+              Incluye modo administrador, edición del plano y diseño responsive para tablets."
+             data-en="Web application for managing restaurant tables with real-time synchronization using Firebase.
+                Includes admin mode, floor plan editing, and a responsive design for tablets.">
+              Aplicación web para gestión de mesas en restaurantes con sincronización en tiempo real usando Firebase. 
+              Incluye modo administrador, edición del plano y diseño responsive para tablets.
+            </p>
+
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Firebase</span>
+            </div>
+
+            <a href="https://camiloaza08.github.io/RestFloorPlanner/" target="_blank" class="project-btn" data-es="Ver Proyecto" data-en="View Project">
+              Ver Proyecto
+            </a>
+
+          </div>
+
+        </div>
+
+        <!-- PROYECTO 2 -->
+        <div class="project-card">
+
+          <img src="images/MH_WEB.jpeg" alt="Proyecto 2">
+
+          <div class="project-info">
+
+            <h3>Maduritos House Page</h3>
+
+            <p data-es="Sitio web responsivo para un emprendimiento gastronómico con menú interactivo, 
+              sistema de pedidos por WhatsApp, búsqueda dinámica y enfoque en experiencia de usuario."
+              data-en="Responsive website for a food business with an interactive menu,
+            WhatsApp ordering system, dynamic search, and a focus on user experience.">
+              Sitio web responsivo para un emprendimiento gastronómico con menú interactivo, 
+              sistema de pedidos por WhatsApp, búsqueda dinámica y enfoque en experiencia de usuario.
+            </p>
+
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <a href="https://camiloaza08.github.io/MaduritosHouse/index.html" target="_blank" class="project-btn" 
+            data-es="Ver Proyecto" data-en="View Project">
+              Ver Proyecto
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ========================= -->
+  <!-- FOOTER -->
+  <!-- ========================= -->
+
+  <footer class="footer">
+
+    <p data-es="© 2026 - Juan Camilo Aza Murcia | Innovación para un futuro digital"
+    data-en="© 2026 - Juan Camilo Aza Murcia | Innovation for a Digital Future">
+    © 2026 - Juan Camilo Aza Murcia | Innovación para un futuro digital</p>
+
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
